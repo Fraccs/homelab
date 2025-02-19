@@ -38,7 +38,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: cert-manager-cainjector
-          image: quay.io/jetstack/cert-manager-cainjector:v1.16.3@sha256:e25e5f62648966d9c442c38ef3004efb60072069d91cf6f1a9a480c16550d09e
+          image: quay.io/jetstack/cert-manager-cainjector:v1.17.1@sha256:da14ecb33386bd53c86d22a7a996e9783da5a09aa4ce9c55e161128fc2632985
           imagePullPolicy: IfNotPresent
           args:
           - --v=2

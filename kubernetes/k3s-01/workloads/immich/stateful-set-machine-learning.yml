@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: immich-machine-learning
-          image: ghcr.io/immich-app/immich-machine-learning:v1.129.0@sha256:a47f8edcca3b09f703b72b11cf2af2735aa3c3234f63e797fb4f7bcd7aebb400
+          image: ghcr.io/immich-app/immich-machine-learning:v1.131.2@sha256:eb63d499c49f67f1c19eb4bf092de2f9fd99e70533979ca5b2b0f733fbcdfbda
           ports:
             - containerPort: 3003
           volumeMounts:

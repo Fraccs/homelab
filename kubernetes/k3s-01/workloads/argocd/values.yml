@@ -7,7 +7,7 @@ global:
   domain: argocd.k3s-prod-a.47fc5c.com
   image:
     repository: quay.io/argoproj/argocd
-    tag: "v2.14.3@sha256:1dfd2fd5112e29db186d6cd7dca75882c0475d812d82e9095dd2edec938825ff"
+    tag: "v2.14.9@sha256:f5885af084da62a952e73cf68df355b28af62894e3779ef4da4ed93a717d8f70"
     imagePullPolicy: IfNotPresent
   tls:
     create: false

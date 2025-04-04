@@ -31,7 +31,7 @@ spec:
                   operator: Exists
       containers:
         - name: kube-vip
-          image: ghcr.io/kube-vip/kube-vip:v0.8.9@sha256:0b4d9e0f17b00bb7514ab19ea268cec1c80529b4a81931acb5c5729dcf094345
+          image: ghcr.io/kube-vip/kube-vip:v0.8.10@sha256:04f7fc73b2bf4909ddae019e881602f1dc9ab614a0b348ac0ac30c5c39b078f1
           securityContext:
             capabilities:
               add:

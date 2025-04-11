@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cdio
-          image: docker.io/linuxserver/changedetection.io:0.49.11@sha256:a12877bda5acbce90a69df7931cd1afa255d1046512b8787e60e0f61c3869692
+          image: docker.io/linuxserver/changedetection.io:0.49.13@sha256:c2f662e002918a8815b7ec4c3250b6cc77d9c992ef44c7f07e97597dd0614b00
           ports:
             - containerPort: 5000
           volumeMounts:

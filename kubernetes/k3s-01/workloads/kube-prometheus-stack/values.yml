@@ -2622,7 +2622,7 @@ prometheus:
     image:
       registry: quay.io
       repository: prometheus/prometheus
-      tag: v3.2.1
+      tag: v3.3.0
       sha: ""
 
     ## Alertmanagers to which alerts will be sent
